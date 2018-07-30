@@ -2,12 +2,12 @@
 
 HOST=`hostname`
 SERVICE='itm.common.ITMBatchScheduler'
-EMAIL='techcustomersupport@csid.com'
+EMAIL='someEmail@example.com'
 SUBJECT=""
 BODY=""
 
 email () {
-TMPFILE=/itm/process/monitor.email
+TMPFILE=/tmp/file.txt
 echo "To: $EMAIL" > $TMPFILE
 echo "From: `whoami`@`hostname`" >> $TMPFILE
 echo "Subject: $SUBJECT" >> $TMPFILE
