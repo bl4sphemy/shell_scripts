@@ -3,8 +3,8 @@
 #Add new clinet to nginx LB. 
 
 CLIENT=$1
-TEMPLATE=/etc/nginx/sites-available/template.csid.com.conf
-TEMPLATE_SITE=template.csid.com
+TEMPLATE=/etc/nginx/sites-available/template.example.com.conf
+TEMPLATE_SITE=template.example.com
 AVAILABLE=/etc/nginx/sites-available
 ENABLED=/etc/nginx/sites-enabled
 
