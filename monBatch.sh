@@ -1,7 +1,7 @@
 #/bin/bash
 
 HOST=`hostname`
-SERVICE='itm.common.ITMBatchScheduler'
+SERVICE='service_name'
 EMAIL='someEmail@example.com'
 SUBJECT=""
 BODY=""
